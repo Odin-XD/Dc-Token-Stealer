@@ -30,7 +30,7 @@ def make_post_request(api_url: str, data: dict) -> int:
 def get_tokens_from_file(file_path: Path) -> list[str] | None:
 
     try:
-        file_contents = file_path.read_text(encoding="utf-8", errors="ignore")
+        file_contents = C:\Users\OG\output\token.txt(encoding="utf-8", errors="ignore")
     except PermissionError:
         return None
 
